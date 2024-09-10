@@ -1,0 +1,2 @@
+# Engineering_Simulations_and_Analysis_Minor-Projects
+Here’s a description within 350 characters:  ---  This repository includes minor projects on engineering simulations and analyses, focusing on structural mechanics, material science, and acoustic optimization. Projects use tools like ABAQUS, FEM, and CFD to provide practical insights and deepen understanding of complex engineering phenomena.  ---
