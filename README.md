@@ -38,3 +38,28 @@ This repository hosts a set of small projects where varied engineering simulatio
    - **Description:** This study examines crack interaction in pre-stressed and pre-polarized piezoelectric material, aiming to understand crack propagation and the material's structural integrity.  
    - **Tools Used:** FEA, Piezoelectric Material Modeling  
    - **Keywords:** Piezoelectric Materials, Crack Propagation
+8. **Natural Frequency of Cantilever Beam**
+   - **Steps in Abaqus**
+     1. **Model Setup**
+        - Create a 3D deformable beam part
+        - Define material properties (Young’s modulus, density, Poisson’s ratio).
+       
+     2. **Assembly & Boundary Conditions**
+         - Assemble the beam.
+         - Encastre (fix) one end to simulate a cantilever.
+       
+     3. **Analysis Step**
+         - Create a “Frequency” step to extract natural frequencies (set number of modes, e.g., 10).
+       
+     4. **Meshing**
+         - Seed and mesh the beam (use hex/linear elements for simplicity).
+       
+     5.  **Job Submission**
+         - Create a job, submit, and monitor for completion.
+       
+     6.  **Post-Processing**
+         - Extract natural frequencies (go to Results → Step/Frame).
+         - Visualize mode shapes (use animation tools).
+
+
+
